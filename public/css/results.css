@@ -1,0 +1,91 @@
+/*
+* This is the CSS file for the results view
+*/
+div.content a {
+    color: #f54997;
+    text-decoration: none;
+}
+div.content a:hover {
+    color: #ffffff;
+}
+div.content div#table {
+    width:95%;
+    margin: 26px auto;
+    background: #191919;
+    padding:10px;
+}
+div.content div#table div#table_wrapper {
+    margin:0 auto;
+    width:100%;
+}
+div.content div#table div#table_header {
+    height:50px;
+    color: #f54997;
+    font-size:1.3em;
+}
+div.content div#table div#table_content {
+    margin: 0 auto;
+}
+div.content div#table div#table_header div.table_header_element, div.content div#table div#table_content div.table_row_element {
+    width:14%;
+    display: inline-block;
+    text-align: center;
+    min-height:40px;
+    vertical-align: text-top;
+    padding-bottom:15px;
+}
+div.content div#table div#table_header div.table_header_element_tiny, div.content div#table div#table_content div.table_row_element_tiny {
+    width:7%;
+    display: inline-block;
+    text-align: center;
+    min-height:40px;
+    vertical-align: text-top;
+    padding-bottom:15px;
+}
+div.content div#table div#table_header div.table_header_element_small, div.content div#table div#table_content div.table_row_element_small {
+    width:11%;
+    display: inline-block;
+    text-align: center;
+    min-height:40px;
+    vertical-align: text-top;
+    padding-bottom:15px;
+}
+div.content div#table div#table_header div.table_header_element_large, div.content div#table div#table_content div.table_row_element_large {
+    width:25%;
+    display: inline-block;
+    text-align: center;
+    min-height:40px;
+    vertical-align: text-top;
+    padding-bottom:15px;
+    position:relative;
+}
+div.content div#table div#table_content div.table_row_element_synopsis:hover {
+    cursor:default;
+}
+div.content div#table div#table_header a:hover {
+    cursor:pointer;
+}
+div#json_results_data {
+    display:none;
+}
+div#table_pagination {
+    margin-bottom:10px;
+}
+div#table_pagination_controls {
+    padding-top:10px;
+}
+div#table_pagination_controls:hover {
+    cursor:pointer;
+}
+.ui-tooltip {
+    position:absolute;
+    width:230px;
+    padding:20px;
+    border: 1px solid #f54997;
+    background: #191919;
+    color: #6d6d6d;
+    display:inline-block;
+}
+.ui-helper-hidden-accessible {
+    display:none;
+}

@@ -1,0 +1,103 @@
+/**
+* This is the CSS file for the index view
+*/
+form#iplayer_search_form {
+    width:100%;
+    position:relative;
+}
+div#iplayer_search_wrapper {
+    margin:30px auto;
+    width:820px;
+    border: 1px solid #323232;
+}
+input[type=text]#iplayer_search {
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0 auto;
+    display: block;
+    float:left;
+    width:477px;
+    height: 30px;
+    font-size: 1.0em;
+    border:0;
+    outline:none;
+    color: #262525;
+    padding-left:10px;
+    padding-right:3px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+select#iplayer_search_media_filter {
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0 auto;
+    display: block;
+    float:left;
+    width:120px;
+    height:32px;
+    background: #f3f3f3;
+    border:0;
+    color: #191919;
+    font-size:1.2em;
+    outline:none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    padding-left: 5px;
+}
+select#iplayer_search_type_filter {
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0 auto;
+    display: block;
+    float:left;
+    width:120px;
+    height:32px;
+    background: #bdbdbd;
+    border:0;
+    color: #191919;
+    font-size:1.2em;
+    outline:none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    padding-left: 5px;
+}
+input[type=submit]#iplayer_search_submit {
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0 auto;
+    display: block;
+    float:left;
+    width:90px;
+    height:32px;
+    background: #f54997;
+    border:0;
+    color: #ffffff;
+    font-size:1.2em;
+    outline:none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+/* jQuery UI autocomplete */
+ul.ui-autocomplete {
+    list-style-type:none;
+    margin:0;
+    background: #fff;
+    padding-bottom:10px;
+    width:446px;
+}
+li.ui-menu-item {
+    position:relative;
+    margin:0;
+    padding:10px;
+    cursor: pointer;
+    min-height: 0;
+    margin-left:-40px;
+
+}
+li.ui-menu-item:hover {
+    background: #f54997;
+    color: #ffffff;
+}
+.ui-helper-hidden-accessible {
+    display:none;
+}
+.ui-autocomplete-loading {
+    background: #FFFFFF url('../images/ajax-loader.gif') no-repeat 98% center;
+}
